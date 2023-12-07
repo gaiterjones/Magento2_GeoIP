@@ -1,0 +1,24 @@
+{
+    "name": "gaiterjones/module-geoip",
+    "description": "Geo IP Data Lookup using geoip2",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "GAITERJONES",
+            "email": "info@gaiterjones.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "geoip2/geoip2":"~2.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Gaiterjones\\GeoIP\\": ""
+        }
+    }
+}
